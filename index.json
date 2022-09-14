@@ -1,0 +1,19 @@
+{
+  "actions": [
+    "/v1/lookup_cnam",
+    "/v1/lookup_format",
+    "/v1/lookup_hlr",
+    "/v1/lookup_mnp",
+    "/v1/sms",
+    "/v1/voice"
+  ],
+  "appId": "3e3ebe68-6e9b-49be-b644-d4dbbfbe4886",
+  "auth_type": "apikey",
+  "connectionUid": "seven--F9sqZN8f",
+  "description": "Send SMS via seven",
+  "doc_link": "https://docs.seven.io/third-party-solutions/webmethods-io",
+  "guid": "bf181e1c-58e9-4f3e-a79b-e5cc1bb63ff5",
+  "name": "seven",
+  "triggers": [],
+  "version": 1
+}

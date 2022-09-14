@@ -1,0 +1,10 @@
+{
+    "name": "seven",
+    "version": "1.0.0",
+    "description": "Send SMS via seven",
+    "dependencies": {
+        "@webmethodsio/cli-sdk": "*",
+        "node-fetch": "^2.6.7",
+        "sms77-client": "^2.22.0"
+    }
+}
