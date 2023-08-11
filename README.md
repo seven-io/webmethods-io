@@ -1,11 +1,10 @@
-![](https://seven.io/seven_outline_white.svg "sms77 Logo")
+![](https://www.seven.io/wp-content/uploads/Logo.svg "seven Logo")
 
-The official seven custom connector for webMethods.io.
+The official [seven](https://www.seven.io) custom connector for webMethods.io.
 
 ## Prerequisites
 
-- [seven](https://www.sms77.io) API Key - can be created in
-  your [developer dashboard](https://app.sms77.io/developer)
+- An [API Key](https://help.seven.io/en/api-key-access) from seven
 - [webMethods.io](https://webmethods.io/) - tested with v1.2.x
 
 ## Actions
@@ -26,6 +25,6 @@ The official seven custom connector for webMethods.io.
 
 ## Support
 
-Need help? Feel free to [contact us](https://www.sms77.io/en/company/contact).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact).
 
 [![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
