@@ -3,9 +3,8 @@ const {initClient} = require('../../util')
 module.exports = {
     description: 'Make a text-to-speech call via seven',
     execute(input, output) {
-        const {debug, from, text, to} = input
+        const {from, text, to} = input
         const params = {
-            debug,
             json: true,
             from,
             text,
@@ -18,16 +17,6 @@ module.exports = {
     },
     input: {
         properties: {
-            debug: {
-                description: 'Act as sandbox',
-                displayTitle: 'Debug',
-                enum: [
-                    '0',
-                    '1',
-                ],
-                title: 'Debug',
-                type: 'string',
-            },
             from: {
                 description: 'Caller ID',
                 displayTitle: 'From',

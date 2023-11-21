@@ -3,9 +3,8 @@ const {initClient} = require('../../util')
 module.exports = {
     description: 'Send SMS via seven',
     execute(input, output) {
-        const {debug, delay, flash, foreign_id, from, label, performance_tracking, text, to} = input
+        const {delay, flash, foreign_id, from, label, performance_tracking, text, to} = input
         const params = {
-            debug,
             delay,
             flash,
             foreign_id,
@@ -23,16 +22,6 @@ module.exports = {
     },
     input: {
         properties: {
-            debug: {
-                description: 'Act as sandbox',
-                displayTitle: 'Debug',
-                enum: [
-                    '0',
-                    '1',
-                ],
-                title: 'Debug',
-                type: 'string',
-            },
             delay: {
                 description: 'Delayed dispatch',
                 displayTitle: 'Delay',
